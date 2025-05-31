@@ -1,3 +1,43 @@
 site_name: SmartPouch Documentation
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Quick Start: setup.md
+  - User Guide: usage.md
+  - Data Specification: data.md
+  #- Worklog:
+  #  - Overview: worklog/index.md
+  #  - Usage Guide: worklog/usage_guide.md
+  #  - 2024:
+  #    - March: worklog/2024/03.md
+  #    - February: worklog/2024/02.md
+  #    - January: worklog/2024/01.md
+  - About Us: about.md
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+
+extra:
+  revision:
+    date_format: '%Y-%m-%d'
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/movement-recognition
+      name: GitHub
+  generator: false
+
+
+markdown_extensions:
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

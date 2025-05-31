@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# SmartPouch Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the SmartPouch Documentation Center! This is where you'll find all the important information and usage guides for SmartPouch.
 
-## Commands
+## What is SmartPouch?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+SmartPouch is an intelligent data management tool designed to help users manage and process data more efficiently.
 
-## Project layout
+## Documentation Structure
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **Quick Start**: Learn how to get started with SmartPouch
+- **User Guide**: Detailed usage instructions and best practices
+- **Data Specification**: Detailed information about data formats and processing
+- **About Us**: Learn more about the SmartPouch team
+
+## Getting Started
+
+To start using SmartPouch, please check out the [Quick Start](setup.md) section.
