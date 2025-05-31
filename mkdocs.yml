@@ -9,12 +9,13 @@ theme:
 
 nav:
   - Home: index.md
-  - Data Specification: data_specification.md
-  - Feature Engineering: feature_engineering.md
-  - Model Training: model_training.md
-  - Model Evaluation: model_evaluation.md
-  - Deployment: deployment.md
-  - One Record: one_record_implementation.md
+  - Data Specification:
+    - Overview: data_specification.md
+    - Feature Engineering: feature_engineering.md
+    - Model Training: model_training.md
+    - Model Evaluation: model_evaluation.md
+    - Deployment: deployment.md
+    - One Record: one_record_implementation.md
   #- Worklog:
   #  - Overview: worklog/index.md
   #  - Usage Guide: worklog/usage_guide.md
