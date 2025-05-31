@@ -1,4 +1,4 @@
-site_name: SmartPouch Documentation
+site_name: SmartPouch_v2 Documentation
 theme:
   name: material
   features:
@@ -9,9 +9,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Quick Start: setup.md
-  - User Guide: usage.md
-  - Data Specification: data.md
+  - Data Specification: data_specification.md
+  - Feature Engineering: feature_engineering.md
+  - Model Training: model_training.md
+  - Model Evaluation: model_evaluation.md
+  - Deployment: deployment.md
+  - One Record: one_record_implementation.md
   #- Worklog:
   #  - Overview: worklog/index.md
   #  - Usage Guide: worklog/usage_guide.md
@@ -19,7 +22,7 @@ nav:
   #    - March: worklog/2024/03.md
   #    - February: worklog/2024/02.md
   #    - January: worklog/2024/01.md
-  - About Us: about.md
+  #- About Us: about.md
 
 plugins:
   - search
