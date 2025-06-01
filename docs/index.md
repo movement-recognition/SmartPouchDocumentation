@@ -1,4 +1,4 @@
-# SmartPouch Experiment
+# SmartPouch Data Experiment Overview
 
 Welcome to the SmartPouch Experiment Center! This comprehensive guide will help you understand and make the most of SmartPouch's experimental workflow.
 
