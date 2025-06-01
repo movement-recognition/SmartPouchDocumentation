@@ -9,12 +9,15 @@ This document provides a comprehensive overview of the data specifications for S
 - JSON files
 - Database records
 - Sensor data streams
+In the above example, the htmltitle block defined in your custom main.html file will be used in place of the default htmltitle block defined in the parent theme. You may re-define as many blocks as you desire, as long as those blocks are defined in the parent. For example, you could replace the Google Analytics script with one for a different service or replace the search feature with your own. You will need to consult the parent theme you are using to determine what blocks are available to override. The MkDocs and ReadTheDocs themes provide the following blocks:
+
 
 ### 2. Processed Data
 - Feature vectors
 - Training datasets
 - Validation datasets
 - Test datasets
+In the above example, the htmltitle block defined in your custom main.html file will be used in place of the default htmltitle block defined in the parent theme. You may re-define as many blocks as you desire, as long as those blocks are defined in the parent. For example, you could replace the Google Analytics script with one for a different service or replace the search feature with your own. You will need to consult the parent theme you are using to determine what blocks are available to override. The MkDocs and ReadTheDocs themes provide the following blocks:
 
 ## Data Categories
 
@@ -22,6 +25,8 @@ This document provides a comprehensive overview of the data specifications for S
 - Labeled data for model training
 - Augmented data samples
 - Cross-validation splits
+
+In the above example, the htmltitle block defined in your custom main.html file will be used in place of the default htmltitle block defined in the parent theme. You may re-define as many blocks as you desire, as long as those blocks are defined in the parent. For example, you could replace the Google Analytics script with one for a different service or replace the search feature with your own. You will need to consult the parent theme you are using to determine what blocks are available to override. The MkDocs and ReadTheDocs themes provide the following blocks:
 
 ### 2. Validation Data
 - Hold-out validation sets
@@ -32,6 +37,8 @@ This document provides a comprehensive overview of the data specifications for S
 - Final evaluation datasets
 - Real-world scenarios
 - Edge cases
+
+In the above example, the htmltitle block defined in your custom main.html file will be used in place of the default htmltitle block defined in the parent theme. You may re-define as many blocks as you desire, as long as those blocks are defined in the parent. For example, you could replace the Google Analytics script with one for a different service or replace the search feature with your own. You will need to consult the parent theme you are using to determine what blocks are available to override. The MkDocs and ReadTheDocs themes provide the following blocks:
 
 ## Data Quality Standards
 

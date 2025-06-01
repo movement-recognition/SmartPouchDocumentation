@@ -34,9 +34,9 @@ Our documentation is organized into several key sections:
 
 To begin your journey with SmartPouch:
 
-1. Check out the [Quick Start](setup.md) guide for installation and basic setup
-2. Review the [User Guide](usage.md) for detailed usage instructions
-3. Consult the [Data Specification](data.md) for information about data handling
+### 1. Check out the [Quick Start](setup.md) guide for installation and basic setup
+### 2. Review the [User Guide](usage.md) for detailed usage instructions
+### 3. Consult the [Data Specification](data.md) for information about data handling
 
 ## Support and Resources
 
