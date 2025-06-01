@@ -6,8 +6,8 @@ nav:
   - Home: index.md
   - Overview: overview.md
   - Data: Data.md
-  - Mermaid:
-    - Mermaid example: example\mermaid_demo.md
+  - MLOps: MLOps.md
+  - Mermaid example: example\mermaid_demo.md
 
 
 
