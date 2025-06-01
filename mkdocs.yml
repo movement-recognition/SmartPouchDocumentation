@@ -1,63 +1,19 @@
-site_name: SmartPouch_v2 Experiment of Data Science
+site_name: ADS-B Ground Operation Experiment
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.top
-    - navigation.expand
-    - navigation.sections
-    - navigation.instant
-    #- toc.integrate
-    - content.code.copy
 
 nav:
-  - Home: 
-    - Overview: index.md
-    - Other Devices: other_devices.md
-    - Our Team: our_team.md
-    - Field Testing: field_testing.md
-  - TOC Test: 
-    - test: test.md
-    - test2: test2.md
-  - Data Specification:
-    - Overview: 
-      - data_specification.md
-    - Feature Engineering: feature_engineering.md
-    - Model Training: 
-      - Model Evaluation: model_evaluation.md
-      - Deployment: deployment.md
-    - One Record: one_record_implementation.md
-  - Examples:
-    - Mermaid Examples: example/mermaid_demo.md 
+  - Home: index.md
+  - Overview: Overview.md
+  - Data: Data.md
+  - Mermaid:
+    - Mermaid example: example\mermaid_demo.md
 
-
-plugins:
-  - search
-  - git-revision-date-localized
-
-
-extra:
-  revision:
-    date_format: '%Y-%m-%d'
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/movement-recognition
-      name: GitHub
-  generator: false
 
 
 markdown_extensions:
-  - pymdownx.arithmatex
-  - toc:
-      permalink: true
-  - admonition
-  - codehilite
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
